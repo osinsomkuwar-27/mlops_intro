@@ -1,0 +1,1 @@
+# FASTAPI application to serve the trained model

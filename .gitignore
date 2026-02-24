@@ -1,0 +1,47 @@
+# avoid pushing datasets or models
+# -------------------------
+# Python
+# -------------------------
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# -------------------------
+# MLflow (VERY IMPORTANT)
+# -------------------------
+mlruns/
+mlflow.db
+
+# -------------------------
+# Model Artifacts
+# -------------------------
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# -------------------------
+# Logs & Temp Files
+# -------------------------
+*.log
+tmp/
+temp/
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# IDE
+# -------------------------
+.vscode/
+.idea/
